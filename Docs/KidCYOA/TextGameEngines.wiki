@@ -1,0 +1,7 @@
+﻿++ Text Game Engines
+
+ * Inkle: single player only?
+ * Undum / Raconteur: Single player only?
+ * Seltani: Foreign server, maybe too limited in world model?
+ * Guncho: Difficult, dedicated server -- is it still running?
+ * MudLib: Lots of very old options. More like coding, I fear.

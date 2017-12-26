@@ -1,0 +1,675 @@
+﻿++ Story Generator
+
+
++Todo
+Dragon name not replaced in explore path dialog name. Player name not erased in explore path before animal name input (make subroutine). Keyboard didn't appear automaticallz for inout. Dragons should be boy, fairy girl, or else dragon should stay "it" for
+
+ * On the weekend
+  * ask Talea for a list of friends with 5-7 year old siblings
+  * write elevator pitch for parents
+ * Set up testing appointments with two of the siblings, using elevator pitch
+ * Next week
+  * Enter text into app 
+  * Replace "soaked" with a better verb
+  * Make dragon curious or ADD instead of "ew".
+  * Make your appstore page, bring it to testing session
+  * Add images in colouring book style)
+  * Test basic interactivity (rather than colouring book code) because we want to see how that interacts with parents
+  * Depending on how the text goes over, either iterate it or find more subjects to do a test with the existing text plus interactivity
+  * .book, .family, .dad, .fun, .game, .joy, .life, .living,.mom, .read. But realize that spam filters may hate these.
+++Testing
+ * Add limit to name and friend name length
+ * Test with boy text
+ * Test with dragon
+ * Talk to teachers, parents, librarians.
+ * Hone an elevator pitch for adults.
+  * Note that some of the customization, the kid does by herself: colouring, building castle. 
+  * Sell the emotions and the story, not the features
+ * Test your appstore videos, screenshots and text with adults
+  * See, for example, if they accept the theme 
+  * If they would pay for it
+  * If they would test it for free and then pay for another story
+  * If they would be annoyed if the first story stopped in the middle and asked them for money
+  * If they would prefer to have a version that reads to the kid itself
+   * if so, should it be educational, like a learn to read book that defines hard words?
+ * Read the story to kids without the app, even if the app is ready
+  * Length ok?
+  * Boring bits?
+  * Texts or decisions that are hard to understand? 
+   * Ask them comprehension questions afterwards 
+ * Read the story to kids with the app. Figure out how the interaction can work in conjuncation with reading. Add advice for parents.
+  * Observe other parents, see how they handle 
+   * interactions 
+   * pictures
+   * decisions (do they influence the kid? Do they ensure they understand the decision?)
+   * rhymes with irregular meter 
+ * See how kids react to multiple playthroughs with different decisions 
+  * Maybe lock replaying until after colouring (& printing) is done 
+Consider using Talea for art and narration: https://www.youtube.com/watch?v=vTvbELTaLzI
+
+I am *not* writing a picture book. I am writing an illustrated short story. There will be pages of text, and a little description is ok. Two reasons: a picture book leans too heavily on the art, and has too few decision points.
+
++Goal
+CREATE YOUR OWN STORYBOOK AND PRINT IT
+
+Make it skinnable so you can reuse the structure or art or text.
+
+To create a fixed story that you help design (e.g. a CYOA that you basically only read once, but given that it is for little kids, they may want to read it multiple times in the same way).
+ * This would take full advantage of magician's choices, small callbacks to choices, and reflective choices
+ * Does it feel restrictive to people? Or does it feel good to have "your adventure" and reread it?
+ * Does this work with a short books, like a picture book?
+ * Outcomes can't feel arbitrary
+ * Outcomes should always be good (ideally, make the player feel like they made the only right decision, like Vin Diesel DMs Just For You) 
+ 
+http://www.altuspress.com/lester-dent-and-the-master-fiction-plot/
+++Alternative Goal
+To create a storyworld in which you experiment with different approaches to see what they do (and, possibly to get the result you want -- but having a linear story with a few funny variants could be enough. Compare the death animations in Andrew the fencer's game)
+
+Classic CYOA
+++Extensions
+Remember to stay focused on the "create your own storybook" goal. E.g. colouring book good, random animations bad.
+ * Provide reading tips to parents: mention that this is a great way to have conversations with the kid about their choices
+  * A final finding of this study was that many parents didn’t use any strategies when reading with their child. This means that they didn’t encourage conversation about the sounds or letters, or about the story and characters. As a conversational approach to book-reading with children has been linked to increased language and reading development, the importance of parents’ inviting the child to offer opinions, asking and answering questions while sharing books cannot be underemphasized.
+ * Offer print on demand
+ * Multiplayer version
+ * Back up one step / correct name / start as new player
+ * incorporate kid's photo
+ * Animations
+ * Character emotions (without requiring each to be coloured individually?)
+ * Kid records their own dialog lines
+ * Press buttons to trigger sounds at appropriate times in the story
+  * Or even dialogs, once the story is familiar  
+ * Kid alone mode with more interactivity
+ * Assemble the giant's castle
+  * taking turns with your parent 
+ * scene assembly like Talea's fairy tale forest magnet book 
+  * Collectibles: new animal for each playthrough, or each coloured page
+ * Colouring book
+  * http://www.coloringpageskids.org/createcoloringpages (in Firefox)
+  * http://mycoloringbook.keasoftware.com (Flash, €50 site license for web pages)
+  * http://www.thegameshost.com/coloring_book -- HTML5 really nice, has brush, magic brush, and fill
+   * https://www.webpagefx.com/blog/web-design/html5-iphone-app/
+   * http://www.williammalone.com/articles/html5-canvas-javascript-paint-bucket-tool/ javascript floodfill
+   * https://github.com/sbcohen/Coloring-Book with source
+  * SVG http://bl.ocks.org/widged/4545199  
+   * https://stackoverflow.com/questions/7211385/javascript-code-to-coloring-drawings-how-does-it-work 
+   * https://codepen.io/MacEvelly/pen/YXyRVE (with source)
+   * Converting images to svg https://craftsbytwo.com/coloring-book-svg-series/
+  * Has defined noncontigous regions http://www.coloring.com/online/eagle-head-flag (but server side, so don't know how) 
+  * with *animations*
+  * and fancy effects
+  * precoloured for better first impression
+   * but that could kill creativity
+   * maybe give parents the option   
+   * or half coloured
+ * After reading a short paragraph of one to four sentences, readers swipe in the direction that the strand leads. The result is that readers are swiping up, down, right, and left. 
+ * Interactive animations (but does that clash with parents? Will the kid have to choose between paying attention to the words and the pictures? But see next point)
+  * Digital books (also called “eBooks,” books that can be read on a screen) often come with interactive enhancements that, research suggests, may decrease child comprehension of content or parent dialogic reading interactions when visual effects are distracting
+   * http://pediatrics.aappublications.org/content/early/2016/10/19/peds.2016-2591#xref-ref-17-1
+   * http://www.cps.ca/en/documents/position/screen-time-and-young-children
+   * Could mitigate this by having animations and effects all triggered manually
+    * And even instructing the parent when to let the kid look at the play with stuff and when just to hold the device and read 
+ * offering two talented narrators -- one female and one male -- to read it to the kids. 
+ * Reveal the next words through interaction
+  * Give the kid visual choices (tap the fairy if the light is a fairy)
+  * Moving the narrative forward by touching the characters to hear them speak. 
+  * reveal additional text fragments as more pictures are touched (like additional description in Twine)
+  * The app doesn't allow any interaction until after the story has been spoken, thus allowing kids to listen before interacting with the story. 
+   * This listening becomes important since, instead of turning the page, kids move the story forward by doing the action called for in the narration. They will slide the coin down the giraffe's neck, and bounce it into the pouch of a baby kangaroo. When children let go of the coin, they are rewarded with playful animations such as the coin ping-ponging off of the turtles' backs. 
+ * "Kids can extend the story with extra narration by touching the characters in the scene to hear what they are thinking or to learn more about what they can do." (http://www.techwithkids.com/Review_SR01110S_jack-and-the-beanstalk-by-nosy-crow)
+ * Minigames (but that clashes with parents, probably)
+ * The app has great replayability because, at the end when Billy finds his coin, he uses it in a gumball-like machine that dispenses small containers filled with zoo animals. By exploring the story repeatedly, players can collect all 12 of the animals featured in the story (and hear a fun fact too). Nice!
+ * EMBED YOUR CO-OP GAMES IN THE STORY (max work!)
+++Avoid Too Many Distractions
+How to Choose a Good Quality E-book
+
+Studies have shown that the following e-book features help children learn:
+
+The pictures and interactive “hotspots” should help children understand the story – When music or animations add extra information that is not related to the story, it can interfere with children’s ability to understand the story [9, 10].
+Games and interactive features should only be active after the narrator has finished reading the page – While hotspots attract children’s attention, they interrupt the story if they can be activated while the narrator is reading [9, 5]. Many e-books now offer different modes (e.g. read-only versus read and play). Having a child listen to the story first in “read-only” mode will help him or her understand the story [11].
+The words are highlighted as the narrator reads them – This helps children understand the connection between the printed words and the what the narrator is saying [1].
+Dictionary mode – A dictionary or links on the page that explain challenging words can help build children’s vocabulary [9].
+“Forward” and “backward” buttons – These help a child learn about turning the pages in a book, and how we read from left to right [2].
+Repeated reading options – This function allows children to repeat pages, sentences, or specific words, which helps build children’s understanding [2].
+
+It Takes Two to Read an E-book
+
+studies have shown that children learn most when they share the e-book with an adult
+While children may enjoy an e-book without needing an adult to read the story, studies have shown that children learn most when they share the e-book with an adult [1, 4].
+
+Here are some tips for enjoying e-books with young children:
+
+Enjoy the book in “read-only” mode first – Limiting the games and interactive features of the e-book during the child’s first reading will help the child understand the story [11].
+Talk about the story – Follow your child’s lead and have discussions about whatever interests him or her about the story.
+Go beyond the story – It will deepen your child’s understanding if you connect events in the story to things that have happened in your child’s life. For example, when reading about how Little Red Riding Hood brought cookies to her grandmother when she was sick, you could talk about how you visited your child’s grandmother when she was sick. Going beyond the story also involves talking about why things happen in the story, and what might happen later in the story. You can have conversations like this by using questions and comments that start with “I wonder what would happen if…” or “I’m thinking that he wants to…” [12].
+Describe and explain – If there are new or challenging words in the story, explain what the words mean for your child. For tips about how to help your child understand new words, please see our article “Shoot for the SSTaRS”. If the e-book has a dictionary function, use it to help describe what new words mean. Use the pictures and animations in the e-book to help explain new words.
+Reading a good quality e-book can be a motivating activity for your child. But the most important thing to remember is to spend time sharing the e-book together with your child, and have conversations about the story. This will promote your child’s language and literacy skills.
+
++Business
+ * Sell individual books
+  * Will people pay for it? They buy normal picture books, but not necessarily as ebooks
+ * Have a bookshelf 
+ * Play half, play to continue
+ * Pay for printed book
+ * Read a chapter a day, pay to read the next chapter early
+ * Pay to change decisions
+ * Pay for expansions (continue the story; side quest...)
+ * Pay for other playable characters
+ * Short stories or continuing stories for little kids?
+ * Talk to existing brands (Tivola, Ravensburger, Pixi)
+++Marketing
+ * While waiting at the restaurant, you don"t have your book and you don"t want a movie -- how about that
++Others' Thoughts
+
+http://www.gamasutra.com/blogs/BrunoDias/20160718/277314/Procedural_meaning_Pragmatic_procgen_in_Voyageur.php
+++Generative
+An approach is to create the facts first and then stitch the story together from that.
+
+The basic L-system idea is good, but you might want it to be random rather than grammar-based. Multiple Markov chains, in essence.
+
+Start with the crime. Randomly choose your main data (type of crime, means, motive, location, victim, perp). But keep specifics like the last three symbolic. For each of these data points, generate more facts off each (say with location, who owns it, who is there...) Again keep the details symbolic.
+
+Deepen the tree by branching similar events off the motive, predicated by the already-decided details. Repeat until there's a natural stopping point ("Motive = Long-held rivalry" or one random incident in a bar once).
+
+The reason to keep things symbolic is that you can then take that tree of details and start to make things interesting based on rules. Arson might have Victim and Perp. Make them refer to the same person and then ba-bing, you have a template for insurance fraud. Murdering themselves is a Suicide crime to investigate. Murder plus Love motive is a jealous lover. Making the crime happen at the same location as a bunch of motive points builds a bit of mythos around a location.
+
+Keep applying templates, filling in details. If you ever get to a point in this part where you can't apply more templates but there's still things to fill in, backtrack and change the last fact to get you out of this pickle.
+
+This structure lets you maintain some logic and narrative style by imposing what might happen (and expose holes in your event space). You get a general control over the length and depth of a crime (insisting on a deep initial tree with making lots of Victims/Perp pairs the same gives you something like Lock, Stock and Two Smoking Barrels)
+
+This approach also lets you debug stories because you can see the choices made and potentially correct for them.
+
+TL;DR Markov generate symbolic facts. Randomly apply templates on symbols to add narrative logic and details in backtrack-able algorithm.
+
+
+
+A "Mentor character" cannot be just "one of the possible authority figures of the paragraph regarding the character's childhood". The verbs and substantives and plot points have to be generated from the Mentor archetype, not the contrary, in which "The Mentor" is merely a randomly generated title.
+
+Westerado
+
+Lore / Backstory generation?
+Nemesis system
+
+++General writing
+Act 1: Set-Up – transition/plot twist – Act 2: Conflict/Crisis – transition/plot twist– Act 3: Resolution
+Let’s take a closer look:
+Act 1 – Set up: This tells us the world we’re in, who the central character is, what s/he wants, and what his/her problem is. At the end of this section there is some kind of transition or plot twist that raises the stakes, and makes it matter all the more that the character achieves his/her goal.
+Act 2: The character keeps trying, keeps going for what s/he wants. Obstacles occur – either from external circumstances, or from within the character’s own make-up. Finally, something happens, some major obstacle, and – crisis! This further raises the stakes. There is another transition/plot twist – perhaps s/he is about to give up, or there is some impasse. It seems as though all is lost.
+Act 3 – One last ditch effort – and then, resolution! Goal met, objective achieved, prize won – the final obstacle is overcome, yet often when offered the prize, s/he has to decide whether to take it or not… thus satisfying the need created by something in the past (at the beginning).
+
+
+Often called a sausage story, a “series of events” is just that, a string of small episodes, as in If You Give a Mouse a Cookie. “Discovery” plot types begin with the character laboring under a misunderstanding. Eventually, they discover something and reverse their situation or outlook, as in Green Eggs and Ham.
+
+“Wish fulfillment” plot types have a deserving main character wish for something and subsequently receive it, as in Cinderella. Contrast that with “purpose achieved” plots, where the main character has to struggle to attain a goal, as in Swimmy.
+
+Theme
+What positive message will the story convey? Examples include: beauty is in the eye of the beholder (Shrek), do unto others (How the Rhino Got His Skin), look before you leap (Curious George), and so on.
+
+Love/friendship
+Does the story feature love or friendship that resonates at an emotional level? Is there a strong bond between characters (Frog and Toad) or an enduring message (The Little Engine That Could)? Will readers laugh (Flap Your Wings) or have a catch in their throats (The Fantastic Flying Books of Mr. Morris Lessmore)? Love and friendship help form a bond between the reader and the story.
+
+Satisfying ending
+Is there an unexpected twist (The Monster at the End of This Book) or satisfying payoff (I Want My Hat Back) at the conclusion of the story? A satisfying ending is the unexpected surprise that completes the child’s reading experience. It is the cherry on top of a good story.
+
+http://thewritelife.com/edit-your-copy/
+
+https://readable.io/text/
+
+
+Hero's Journey
+
++My Thoughts
+As with Angry DM, different solutions should have different consequences (perhaps cosmetic, perhaps important, causing characters to recur or to behave differently when they do).
+
+Make things feel less random through consequences that tie them together.
+
+Don't use second person narration, because little kids may find it confusing (kids books that do this are talking to the kid in front of the book, not a similar kid inside the book). Maybe using the kid's name is already a problem? Maybe "Sir Talea" would be better? Or just another character?
+
+Intro + 3 episodes + resolution in 500 words. Say Intro is 30 words. Then an episode or resolution should be about 120 words. There should be one to three choices per episode, one in the intro, and zero to one in the resolution. That means 40 to 60 words between each choice in the episodes, and gives a total of four to eleven choices. That may even be too many! For now, go for the minimum. 
+
+OTOH, in picture books, there are typically only 25 words to a page. You could have 25 (10 - 50, variety is good) words setting up a choice, and 25 words reacting to it, each with a picture (or the reactions have no picture, since that multiplies the number of pictures required). Ten choices in total seems ok. 
+
+Pictures are very important for little kids. Elinor! Can they even make decision? Do they want to? Maybe you are dealing with older kids again? But see Märchen, platz 32, for a shitty counterexample.
+
+ 
+++Generative
+Storytelling game:
+ * Choose a role (miller's daughter, princess, warrior maid...)
+ * Choose three things to take with you
+ * Choose what to use when?
+ * Have setbacks as well as successes, but guaranteed final success
+ * World model?
+ 
+Challenges could grant rewards, like items, personality traits, access to new areas, information, changes in NPC states (new friends)...
+
+Simulated world or characters, or not?
+
+Objects that have multiple qualities. Look for objects of certain qualities to satisfy challenges, and only offer workable options.
+E.g. you have bread (food, makes trail), garlic (food, repels vampires), pebbles (makes trail, hard), and a sword (kills, hard)
+You meet a giant who has text for being fed, fought, given valuables, or talked to. You are offered the choices to
+ * Give bread
+ * Give garlic
+ * Fight with sword
+ * Talk
+But not anything with the pebbles or the given valuables option.
+
+Civ-like game in which the goal of the opponents is drama, not victory (or challenge to the player)
+
+++Content vs Simulation
+It is technically straightforward to write CYOA if you are willing to hand-author all content.
+
+You can "spend" content on replayability or on a sensation of meaningful choice, which are not necesarily the same thing; choice in a single playthrough can be faked.
+
+Technical cleverness is only useful if you can use it to reduce content by more than you increase technical effort.
+
+This should pay off for the illusion of choice: tracking simple character and world states isn't hard and can dramatically make decisions look meaningful.
+
+In theory, it can pay off even more for replayability, but only if text repetition is ok, or if you can generate text that feels new (lower quality of writing may be ok for a replayable game vs. a one-shot story).
+ 
++Questions
+How much "good writing" is good for kids? "Looked" vs "peered" or "stared" -- will they know the latter? 
+What about world knowledge vs . show, don't tell? If a character shivers, will a four year old know that they are cold or afraid, and be able to figure out which? If pale light filters through the leaves, would she know that you are in a moonlit forest?
+
+Do we give the kid character control (what do you do?) or narrative control (the light is a fairy)?
+
+Do little kids prefer predictability (the light is a fairy) to uncertainty (it's a campfire, but that could be anything)? 
+
+Do we break the fourth wall and comment on the player's decisions? E.g. "That's how a hero would act". Being on the nose with that is bad for rereading, but implying it is good (e.g. if you avoid a hole, you hear terrible sounds come out of it).
+
+How much interaction? http://www.techwithkids.com/Review_SR01112S_petes-robot seems to favour books that have lots of things to tap on, choices to make, etc.
+
++Possible Goals
+++Infinite Storybook
+ * To create an "infinite storybook", that parents can read every night, perhaps with seed ideas from them or kid. 
+  * Should feel like a different story every time, which is tricky; could end up being like writing N kids' books, but probably only being able to sell it for the price of two books, max.
+  * Could try to mix and match smaller text fragments, but may be hard to do this without it being crappy
+  * Probably hardest, but experiment a bit with text fragment approach
+++Assisted Storytelling
+ * To create a fixed story that you help design (e.g. a CYOA that you basically only read once, but given that it is for little kids, they may want to read it multiple times in the same way).
+  * This would take full advantage of magician's choices, small callbacks to choices, and reflective choices
+  * Does it feel restrictive to people? Or does it feel good to have "your adventure" and reread it?
+  * Does this work with a short books, like a picture book?
+   * Will people pay for it? They buy normal picture books...
+   * There are few individual books in the top-grossing list in Germany
+   * But Nosy Crow sells books for up to $5 
+  * Outcomes can't feel arbitrary
+  * Outcomes should always be good (ideally, make the player feel like they made the only right decision, like Vin Diesel DMs Just For You) 
+  * Allow saving of good stories.
+  * Remember which paths have been explored and avoid them in future playthroughs?
+++Drama Manager
+ * To create a storyworld in which you experiment with different approaches to see what they do and to get the result you want
+  * Is this something little kids want?
+   * http://www.techwithkids.com/Review_SR01030S_little-red-riding-hood-nosy-crow-animated-picture-book
+  * Does it destroy the "canon" feeling?
+  * Sense of mastery
+  * Teach multiple lessons
+  * Surprising outcomes are ok, because you can try again
+  * Repeated texts are ok here, but fake choices are not, so we probably need more content than the "themosetting" version, but less than the "infinite" version
+  * One goal could be to acquire character traits (http://www.gdcvault.com/play/1023372/Practices-in-Procedural)
+ * Could also integrate the repetition into the metastory:
+  * Collect a constellation for each hero you make, whose shape depends on your character traits
+  * Traces of your old character could appear in game
+  * Can't resolve the story in a single playthrough
+  * ReincarnationAdventure 
+  * Repetition of descriptive passages, with variants for your effects, would work well here
+   * Even for character behaviour of archetypes, like Giants
+  * How to incorporate theme?
+++See All The Endings
+ * To create a story that is basically similar every time, but has variation. When you reread it, you are aware of the repetition, but see the (minor) effects of your decisions
+ * Classic CYOA
+  * http://www.techwithkids.com/Review_SR01234S_loose-strands
+  * http://www.techwithkids.com/Review_SR01030S_little-red-riding-hood-nosy-crow-animated-picture-book
+++Make Your Own Book
+ * There are apps that start with a blank page and give you clip art
+ * https://www.storyjumper.com
+ * Scratch Jr
+++Personalized Book
+ * https://www.wondrousink.com/preview/
+
+What builds rapport better?
+ Anything that offers the kid choices, I guess
+    
++Tools
+Need story, colouring book, assemble castle, kid photo integration, export to print on demand, possible other (coop?) minigames, trigger text through click on object
+Want automated testing, audio recording 
+I guess this means Unity or HTML 5?
+
+None of the plausible options seems to have automated testing out of the box. For anything that runs in a browser, you can 
+use Selenium http://www.seleniumhq.org http://darkforestgame.blogspot.de/2016/09/automated-testing-of-choice-based-text.html to write testscripts,
+ or random test with e.g. https://www.reddit.com/r/twinegames/comments/6e1te6/an_automated_test_that_traverses_all_your_pages/
+ 
+For each tool, build a game with:
+ - OK a choice
+ - OK a name to enter
+ - OK an image displayed
+ - OK clicking on part of the image to trigger change in text state
+ - adding user photo to image
+ - recording user sound and playing it back
+ - €28 coloring image
+ - OK draggable objects
+ - exporting results for fixed reply or print
+ - automated testing  http://fungusdocs.snozbot.com/tests_commands.html
+ - OK BUT BUGGY go back one step
+++Making a Colouring Book
+ColouringBook
+++Fungus
+Open source, also for commercial
+Unity plugin
+Lua under the hood
+https://github.com/snozbot/fungus
+http://fungusdocs.snozbot.com
+http://fungusgames.com 
+http://leahlee.studio/tag/fungus/
+https://sercanaltun.com/fungus-game-input-dialog-writing-custom-commands/
+https://www.youtube.com/watch?v=WFEGnS7MU74
+https://muut.com/i/fungus/general:sync-audio-word-by-word-wit
+Localization https://www.youtube.com/watch?v=WBA-shjuTBA This will also export all text for better proofreading. And import!
+++Pro
+Unity is powerful and has huge community
+Flowchart
+ * But you can use Balsamiq or http://freeplane.sourceforge.net/wiki/index.php/Main_Page
+++Con
+Fiddly to enter data
+ But you could script it in Lua http://snozbot.github.io/fungus_lua/lua_script/index.html#lua-modules-and-require
+  But then you lose the flowchart
+   But that leaves you no worse off than RenPy, etc., but with the power of unity
+Not very exportable (unity in general suffers from this)
+Idiosyncratic choices (e.g. hard to display text with no delay)
+Slow testing
+
+++Undum / Raconteur / Salet / Vorple
+Javascript for the web. 
+More programmer-oriented which means more awkward... but maybe more flexible?
+Smaller community
+http://vorple-if.com/vorple/doc/undum/enhancing-with-vorple.html
+++Inform
+Not ideal for choice-based
+++Inklewriter
+Decent visualization
+Can play as weblink or export to JSON, but not to ink AFAICT
+No way to drop down to code
+No automated testing
+What if their tool vanishes? Online only...
+Could just rip the web pages directly, giving javascript again
+++Ren'Py 
+Open source, also for commercial
+Python under the hood, but how flexible is it
+ -how hard is it to do a colouring book? Or castle?
+ -basically you are using pygame  PyGame_SDL2
+ -castle should be fine https://www.renpy.org/doc/html/drag_drop.html  https://lemmasoft.renai.us/forums/viewtopic.php?f=51&t=16151#p209837  https://lemmasoft.renai.us/forums/viewtopic.php?f=51&t=30643#p358786
+ - Floodfill http://code.nabla.net/doc/PIL/api/PIL/ImageDraw/PIL.ImageDraw.floodfill.html
+ https://stackoverflow.com/questions/10026346/how-to-flood-fill-part-of-a-bitmap-enclosed-by-a-black-border-with-my-chosen-col
+ http://opencv.willowgarage.com/documentation/python-introduction.html
+https://www.pythonstudio.us/visualization/using-imagedraw-for-flood-fill.html
+https://stackoverflow.com/questions/11746766/flood-fill-algorithm-python
+https://gamedev.stackexchange.com/questions/118471/fast-flood-fill-in-pygame
+
+But maybe performance issues and you can't just import whatever module you like, e.g. no numpyhttps://lemmasoft.renai.us/forums/viewtopic.php?f=8&t=31592
+Just getting Surfaces can be hard: https://lemmasoft.renai.us/forums/viewtopic.php?f=8&t=5592&p=76210&hilit=numpy#p76210
+PIL seems to be importable, but not necessarily functional https://lemmasoft.renai.us/forums/viewtopic.php?f=8&t=33956
+opencv? https://stackoverflow.com/questions/41656764/how-to-implement-flood-fill-in-a-pygame-surface Also looks like serious effort and maybe a problem on mobile
+
+I'm getting the sense that it doesn't play too well with others. The maintainer TomPy, is insanely active but only one guy?
+Customizing NVL https://lemmasoft.renai.us/forums/viewtopic.php?f=51&t=17232
+
+https://lemmasoft.renai.us/forums/viewtopic.php?f=51&t=39572#p422964
+
+Position viewer: https://lemmasoft.renai.us/forums/viewtopic.php?f=51&t=29763#p351230
+
+Can build iOS apps
+https://www.renpy.org/doc/html/udd.html
+Script-based, which seems like a win to me (search and replace; overview; familiar; faster data entry) but you lose the flowchart. OTOH you already have that in Balsamiq.
+
+Must include This program contains free software licensed under a number of licenses, including the GNU Lesser General Public License. A complete list of software is available at https://www.renpy.org/l/license/.
+++Tyrannobuilder
+http://tyranobuilder.com/faq/
+
+++Ink
+No visualization
+Unity integration
+No automated testing (but could build your own or export to HTML and test there, or write something in Unity)
+Can call side-effect-free Unity functions from ink, or trigger via text parsing
+ They recommend doing side effect via hashes, but how to incorporate variables there?
+Inky view uses HTML, Unity a related but different markup
+
+++Twine
+Incompatible 1.4 vs 2.0 : http://twinery.org/wiki/twine2:what_s_new_in_twine_2
+HTML / Javascript
+http://twinery.org
+http://twine.analytical-engine.co.uk/index.html
+Command line version http://twee-twine-doc.tiddlyspot.com
+ https://github.com/tweecode
+ https://github.com/Dan-Q/twee2
+ http://www.maximumverbosity.net/twine/Entweedle/
+Visual layout of story nodes
+Haven't seen any impressive examples of coding, but maybe that is just the community? Or maybe it is hard to embed code in twine?
+Unity embedding:
+ https://github.com/daterre/Cradle
+ Or Yarn Spinner (see below)
+ Or browser embedding of unity, but that seems needlessly complicated: http://ludumdare.com/compo/2014/08/29/unity-twine-debriefing-guide-and-sourcecode/
+ 
+Drag and Drop in HTML5
+https://blog.jscrambler.com/10-frameworks-for-mobile-hybrid-apps/
+https://onsen.io/v2/api/vue/$ons.GestureDetector.html#event-drag
+https://www.html5rocks.com/en/tutorials/dnd/basics/ 
+https://www.youtube.com/watch?v=9aywqeCIxyw
+++Pros
+Their editor is *beautiful*, though. Keep track of this for a second story, since HTML5 support on mobile will also only improve.
+ Use twine 2 editor instead of Balsamiq and export text for Renpy or Fungus? Maybe parse it to Lua or Python?
+HTML5 is a useful job skill and increasingly flexible
+If you end up needing unity, you can use Cradle (but then need to redo styling)
+If you would prefer to write it directly, there is https://dan-q.github.io/twee2/
+++Cons
+Slight inconvenience: need to export for version control. But diffability should be good.
+CSS can be platform dependent
+Does less out of the box (but good community, I think)
+Single file (except using Twee2)
+Impossible to go from one passage to another without clearing the screen. But there is "include". And replace https://twinery.org/forum/discussion/2720/adding-text-after-a-choice-in-sugarcube
+
++++Stuff to Know if you actually use it
+https://www.smashingmagazine.com/2016/04/consider-react-native-mobile-app/
+
+http://www.adamhammond.com/twineguide/
+Story Includes http://eturnerx.blogspot.de/2013/08/twine-storyincludes-overview-video.html
+Story presentation
+ * https://gamingthepast.net/simulation-design/twine-interactive-fiction-tool/twine-2-0-harlowe-beginners-guide/
+ * http://www.motoslave.net/sugarcube/2/
+ * https://twine2.neocities.org
++++Yarn
+Yarn is basically Twine with a proprietary (?) mobile engine
+https://www.youtube.com/watch?v=xWoZOGHh4Qc
++++Yarn Spinner
+Allows embedding Yarn in Unity (?)
+Note that there may be two unrelated IF projects called Yarn.
+https://www.secretlab.com.au/blog/2016/2/10/yarn-spinner
+++Adventure Creator
+http://www.adventurecreator.org/about/features
+Lipsynching
+More for point & click adventures: characters walk around, pick stuff up, etc.
+
+++Varytale
+No longer exists
+++ChoiceScript
+They get 25% for commercial use (75% if they host)
+Does have automated testing
+
++Images
+Take (Eva's) photos and put them through a watercolour filter
+Live2D? Needs a serious and possibly specialized artist
+
+ * Visual novel style: background + character. Character has different poses or expressions. Background remains the same for many pages.
+ * Picture book style: new illustration for every page, not necessarily with background (Elephant and piggy). Pages have few words.
+ * Illustrated book style: Pages of text only, interrupted by illustrations or marginalia. Words per page varies.
+
+Text:
+ * bracketing images, with background behind
+ * filling page, with background behind
+
+Speech:
+ * Speech bubbles at the bottom or top (visual novels)
+ * Embedded in the text (even picture books usually do this)
+ * Either simultaneous with or alternating with normal text
+
+In any case, but especially if you use speech bubbles, you have a potential problem in that people might want to reread a bit, e.g. because the kid missed it or because or a mistap. So you really need a rewind function. Not sure if Fungus can do this.
+
++Approaches
+ * Adventure: A story in which you must find the prewritten way to a successful conclusion.
+ * Twine: A story in which the plot is fixed, but you have reflective choices.
+ * Agents: There are characters with goals. You have a conflicting goal. You must attain your goal while they attempt to attain theirs. 
+ * Troupe: As Agents, but the goals of the other characters are actually for something interesting to happen to you
+ * Drama Manager: There is manager metaactor who manipulates things to keep them interesting.
+ * Episodic: There are prewritten scenes with prewritten options (possibly state-dependent) that can show up in different orders and combinations.
+ * Pregenerated: A new plot is generated each time you play, but there is no interactivity beyond possible reflective choices.
+++Protagonist
+ "You"? "Talea"? "Sir Talea"? Somebody else entirely? Need to test.
+    
+ 
++Language
+https://wordcounter.net also gives speaking time & reading level.
+
+Dorothy suggests min age 6 or 7 for making decisions. Let's target age six to seven / grade 1.
+
+If you really expect parents to read the book to the kids, both length and difficulty can be a level higher than otherwise, I guess.
+
+But is that a good idea? It seems to confuse your marketing.
+
+http://www.writing-world.com/children/stages.shtml
+
+Write descriptions for now, then cut them if you can afford an illustration that makes them redundant.
+
+++Style
+Write for it to be read aloud: Assonance, rhyme, repetition, pacing...
+http://www.writing-world.com/children/backes1.shtml
+
+Reveal character with descriptions:  Grandpa was an old, wrinkled, cranky man is a description that could come from any character that happened to spend a few minutes with Grandpa. Hannah thought Grandpa looked like the lemon she had left in the sun for her science experiment: brown, shriveled, and probably just as sour is a viewpoint that can only belong to Hannah.
+
+Use triple-duty dialogue. Dialogue does three things: it supplies the reader with information about the plot, it gives insight into the speaker, and it shows the relationship between all the characters in the conversation. 
+
+If you do this again, use fewer characters -- not just one damn thing after another.
+
+Note that even six year olds are only so-so at inferring emotional state from behaviour. It may be necessary to add "Bob was scared" or whatever. However, when the emotions suit the context, it is much easier (e.g. if it is Christmas, and someone acts happy, the kid will assume they are happy. If someone acts sad, the kid may still assume they are happy, because it is Christmas!)
+
+++Theme
+Middle grade books are geared towards kids who are between 8 and 12 years old, so anywhere from 2nd graders to 6th graders. Word counts are usually between 30,000 and 50,000 words. There’s a lot of wiggle room for content and complexity here, because an 8 year old (or a precociously reading 7 year old) and a 12 year old are in very different places, emotionally, intellectually, socially. The protagonist should be a kid though, as well as the point of view. Middle grade stories tend to be inwardly focused, so the protagonist is usually in some way trying to figure out who they are.
+
+Young Adult stories are more outwardly focused and tend to have a protagonist figuring out who they are in the world, that is, in relation to what’s happening around them. Again, the point of view must be that of the kid, or in this case teenager. YA stories are geared towards 13 to 18 year old readers, but as you must know by now, gazillions of adults read YA, too.
+
+Allow your POV character to grow and learn from his mistakes. Let him solve his own problems.
+
+++Vocab
+Average native test-takers of age 8 already know 10,000 words
+Average native test-takers of age 4 already know 5,000 words
+--https://www.economist.com/blogs/johnson/2013/05/vocabulary-size
+
+Dolch lists for vocabulary (or possibly Fry)
+
+Consistent vocabulary: Explore => explore, not e.g. search
+
+
+Tier I 
+-Most basic words
+-Rarely require instruction in school
+-Examples: clock, baby, happy
+
+Tier II
+-Words that are high frequency for mature language users and are found across a variety of domains
+-Not so common in everyday language
+-Instruction adds productivity to an individual’s ability
+-Examples: coincidence, absurd, industrious
+
+Tier III
+-Words whose frequency of use is quite low and is often limited to specific domains
+-Best learned when needed in a content area
+-Examples: isotope, lathe, peninsula
+
+Tier II is ok 
+
+4 yo has 1600 word active vocab, maybe 15000 passive! Go for 5000
+55/6
+180/20 = 9 words per line 
+++Sentences and Paragraphs
+3 - 4 sentences per paragraph?
+
+Reduce the distance between beats.
+Reduce the number of beats.
+--http://www.aaronshep.com/kidwriter/A66.html
+
+Dialog is 1/3 to 1/2 of the text
+
+Mountain range pacing
+
+++Length
+500 - 5000 words!
+Remember that you will need to write a multiple of this, so stick to 500 - 1500, I'd say.
+
+You have about 12 decision points, so that's about 50 - 125 words between each.
+
+Your 'pages' work differently, of course.
+
++++Picture Books Definition
+These books run from 50 to 1,500 words. Many children have a short attention span, so this length is appropriate. There are three categories of picture books:
+
+1) Books for babies to three-year-olds. These books have very little text.
+
+2) Books for toddlers to five-year-olds. These books are designed to be read aloud and at one sitting. They should have a happy ending. Length of sentences is about five to six words. These books should take no longer than 15 minutes to read.
+
+*3) Books for five- to eight-year-olds. These books contain a story. They should have a beginning, a middle, and an end. The plot should be simple. These books may also be read aloud.*
+ 
+Okay, so you have a great theme, and you’re ready to write your story.  See sections 303 and 304 to determine what type of story you want to write.  But first, first, first, first, first, know that your story should be about 400-700 words long.  Yes, that is all.  Remember that picture storybooks are longer, but that is a much smaller market and should be geared to older kids.  Also remember that books geared to the youngest listeners (2-5) should never be longer than 500 words.  I suggest shooting for about 500, regardless of target age.
++++Random Internet suggestions
+Early Reader — I’d say 1,500 words is the max.
+Chapter Book — This varies widely, depending on grade and reader level. 15,000 words max.
+"Standard Picture Books" (age 3-8): 400 – 800 words
+"Picture Books Stories [Think ‘Dogger’ or ‘David and Dog’ by Shirley Hughes] (age 6 – 10)": 1000 - 3000 words
+http://literaticat.blogspot.de/2011/05/wordcount-dracula.html
++++Talea
+
++++Examples
+Kleiner Nick: 180 words per page, 6 - 9 pages per story (usually 8) = 180 * 8 = 1440 per story
+Liselotte ist Krank: 67 + 18 + 31 + 18 + 25 + 35 + 34 + 41 + 92 + 30 + 35 + 23 + 22 +69 + 20 + 14 + 10 + 74 + 1 = 659 words
+Madita: 216 in 21 lines = 216 / 21 = 10 words per line. 21 + 27 + 27  + 12 + 27 + 12 + 27 + 27 + 27 + 14+27+27 +27+27 + 12 + 12 + 24 = 377 lines in the story, so ca. 4000 words
+The Enchanted Wood. by Enid Blyton. 70.000 words!
+A Bear Called Paddington. by Michael Bond. 25.000 words
+The Milly-Molly-Mandy Storybook. by Joyce Lankester Brisley. ...
+Flat Stanley. by Jeff Brown. 4000 words
+Clarice Bean, That's Me. by Lauren Child 10.000 words
+That Rabbit Belongs to Emily Brown. by Cressida Cowell. 900 words
+The BFG. by Roald Dahl. 70.000 words
+The Story of Babar. by Jean De Brunhoff.
+Magic Tree House 5000 words, Average Chapter length 475 words, Range 380 words
+Robert Munsch (oral!), paper bag princess: 24 + 19 + 59 + 78 + 78+ 40 +51 + 52 + 34 + 42 + 56 + 31 = 564
++Interaction
+Instead of just "tap to turn the page", tap on creatures to make them talk, and introduce transitions visually, then tap on them. E.g. when the fairy light appears, tap it to summon the fairy closer.
++Multimedia
+How much of your text can be replaced by pictures, animations, and sounds? But those will typically be more expensive that the text.
+
+You should definitely avoid animations for now, although moving static sprites is ok.
++Testing
+Try a version with "you" instead of kid's name.
+++Talea
+Talea really wants to know the road not taken
+She likes the funny bits by far the most
+She predicted that the original monster would be the dragon and expected the dragon to be friendly
+She thinks the sofa is a giant dog. Maybe it could purr. (when tapped)
+"{$BuddyName} holds her nose and tries not to touch anything. " -- laugh, then "Warum?"
+She sympathized with the witch and understood the plot
+She didn't like the faceless character -- because she made it a boy named Raffi and then complained that we didn't know anything about him. So just ask about the kid directly instead of saying "Once upon a time, there was a X named Y".
+"Sometimes I didn't know what to say." -- was that because it wasn't "her"? Should I make it "you" after all? Or just a general FOMO
+Text didn't feel terrible to read. Some of the poetic language seemed silly.
+It was hard to keep her attention. Hard to say if it was boredom or her roleplaying restlessness.
+++Talea 2
+This time I told her to play herself and made suggestions for missing options (well, I did that the first time, but she mostly didn't)
+
++Related
+http://www.hanen.org/Helpful-Info/Articles/The-Impact-of-Toys-on-Interaction.aspx
+http://www.hanen.org/Helpful-Info/Articles/Helping-Young-Readers-in-a-Digital-World.aspx
+http://www.hanen.org/Helpful-Info/Articles/E-Book-or-Paper-Book-Whats-Best-for-Young-Child.aspx
+InteractiveDrama
+DungeonMasterAI
+SimulationistRPG
+SimulationistNPC
+StorytellingCRPG
+TextChoices
+ReincarnationAdventure
+DebbieStoryGeneratorDiscussion
+ColouringBook

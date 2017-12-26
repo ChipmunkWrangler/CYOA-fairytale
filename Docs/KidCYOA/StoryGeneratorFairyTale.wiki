@@ -1,0 +1,404 @@
+﻿++ Story Generator Fairy Tale
+
++Structure
+You wake up in a forest.
+You meet up to three characters, chosen from the following.
+The first encounter raises the stakes.
+The second encounter makes it look like all is lost.
+The third encounter leaves you victorious in the conclusion.
+
+The encounters can be with the same or different characters.
+The characters have relationships to each other, which affect the options.
+There is equipment that affects the options.
+There are character traits that affect the options.
+
++Notes
+If you have to write completely different text for Fairy first, fairy second and fairy third, it doesn't have to be a fairy. OTOH, having the fairy behave in different but consistent ways could make the world feel richer.
+
+Fairy should be clumsy
+
++Extensions
+Different character for mentor/rescued versions
+Different character for dragon and fairy
+
++Text alternatives
+She climbs a huge oak tree. Quiet as an owl, she watches and waits.
+Darkness.
+Silence.
+Until...
+ 
+The bushes rustle. A branch snaps. Something is coming. 
+Something big.
+Something that grunts and pants and squeals as it comes.
+ 
+It stops right under {$PlayerName}'s tree.
+It sniffs the air.
+It speaks!
+ 
+"I smell your skin, little girl. It's making me hungry! I'm going to pull this tree up by the roots and shake you out like a ripe apple." 
+
+"Do not shiver in the night --
+Come to the river! The moon shines bright 
+On our fairy ring. Come dance, come sing!
+{$PlayerName} replies:
+
+She creeps through the silence. A dot of green light floats past her eyes. It vanishes, then reappears. Another joins it, and another. Fireflies! A swarm circles {$PlayerName}. It draws her onward, past endless trees. 
+All the lights wink out at once. 
+Darkness.
+No! {$PlayerName} can just make out a silver glow ahead. She strides towards it.
+
+
+
+
+
+Squinting, she watches herself fall slowly towards the huge waiting eyes. The fairy's glow flashes bright as lightning. {$PlayerName}'s dazzled eyes water. The Glutton groans and shakes its head frantically. 
+"Flee with me while it can't see!"
+{$PlayerName} jumps down from the oak tree. Blinking, she lets {$BuddyName} the fairy lead her away.
+
+The firelight glints off its shining scales. 
+F: "And I just saved your life."
+Wait.
+Why is there still firelight
+{$PlayerName} realizes two things at once: The dragon is no longer than her forearm, and t
+
+F: "Dragons start fires, we don't stop them!"
+P: "We have to do *something*!"
+They think hard. The tree crackles.
+F: "River!"
+P: "Who?"
+F: "We can ask River. Come on!"
+The dragon flaps into the darkess. {$PlayerName} sprints downhill after it, quick as a deer.
+Cattails replace trees around them. The ground is soft and slippery. Soon, they hear the river burbling. They step out from under the trees. Moonlight strikes sparks on the rushing water.
+F: "River! River!"
+There is a gurgling like a thousand water bottles emptying.
+R: "Do not disturb the water!"
+F: "Please, River! The forest needs you! Look!"
+A 
+R: "How I hate to leave my bed."
+++Hide
+NAME climbs a huge oak tree. Quiet as an owl, she watches and waits.
+Darkness.
+Silence.
+Until...
+ 
+The bushes rustle. A branch snaps. Something is coming. 
+/Something big./
+Something that grunts and pants and squeals as it comes.
+Something that stops just under {$PlayerName}'s tree.
+ 
+(It is still too dark to see what it is)
+It is too dark to see what the *something* is, but it stinks like rotting garbage.
+ 
+It snuffles at the roots.
+It sniffs the air.
+Then it speaks!
+ 
+"I smell your skin, little girl! It's making me hungry..."
+
+
+Bushes rustle. A branch snaps. Something is coming.
+Something that grunts and pants, louder and louder as it comes closer and closer.
+
+The bushes rustle. A branch snaps. Something is coming. 
+/Something big./
+Something that grunts and pants and squeals as it comes.
+It thunders to a stop just under {$PlayerName}'s tree.
+
+It thunders up to Bob's tree, and skids to a stop.
+It thunders up to Bob's tree, and there it stops.
+
+
+The bushes rustle. A branch snaps. Something is coming. 
+Something big.
+Something that grunts and pants and squeals as it comes.
+It is heading right for Bob's tree!
+
+"Beautiful child, lost in the wild!
+Are you alone, far from home?
+Do not fear, help is here,
+Do not fear the jaws that bite,
+Close your eyes against the light."
+
+But wait -- what's this? (not in main text, but shown next to the light that has just appeared in the picture)
+A light bobs among the treetops. As it floats closer, {$PlayerName} sees that it is a glowing fairy.
+Her voice tinkles like a bell made of ice.
+"Beautiful child, lost in the wild!
+Are you alone, far from home?"
+
+
+Have no fear, help is near.
+
+She climbs a huge oak tree. Quiet as an owl, she watches and waits.
+Darkness.
+Silence.
+Until...
+ 
+The bushes rustle. A branch snaps. Something is coming. 
+Something big.
+Something that grunts and pants and squeals as it comes.
+ 
+It stops right under {$PlayerName}'s tree.
+It sniffs the air.
+It speaks!
+ 
+"I smell your skin, little girl. It's making me hungry! I am the Glutton, and I'm going to pull this tree up by the roots and shake you out like a ripe apple." 
+
+Have no fear, help is near.
+"
+"But I wanted to eat this kid!"
+"NOW!"
+"Ok, ok... Just don't shout."
+"Sorry about that. Most of us in the forest are friendly. Do you need help?"
+
+ grow brighter until she is as dazzling as lightning.
+
+Through half-closed eyes, {$PlayerName} watches the fairy's gentle glow flash as bright as lightning.
+
+{$PlayerName} bounds through the forest like a deer. The fairy at her side lights her way. Soon, they hear the river burbling. They step out from under the trees. Moonlight strikes sparks on the rushing water. Within a ring of mushrooms, another light glows: fairies, dancing and singing.
+"Look! Our sister's brought a friend!
+
+
+Join us sister, join us, child!
+Dance
+
+
+"Dance the river, sing the sky!
+ The breeze blows warm, 
+The elf owls whinny and the hawk moths swarm
+the crickets perform / buzz / quiver / chirp / fiddle
+Tomorrow may bring the storm
+The elf owls chuckle / whinny / scream / hoot / gurgle and the crickets fiddle
+The 
+Do-se-do and up through the middle
+The horned owls toot and the crickets fiddle
+
+"Swing your partner, stroll up the middle
+ Dip and spin and quiver to the tune
+ Horned owls toot while the crickets fiddle
+ Dance the river, sing the moon!"  
+ 
+ Welcome friends, both old and new,
+ Join us
+ 
+ 
+ he oak tree. She bounds through the forest like a deer. {$BuddyName} lights her way.
+{$PlayerName} feels shy, but tiny hands pull her into the ring, and soon she is leaping and stomping 
+ 
+ The fairies cheer as {$PlayerName} leaps into the ring. They skip and stomp and twirl together. The more she dances, the lighter {$PlayerName} gets. She feels like she could jump to the sky. The fairies glow brighter and brighter. The music gets faster and faster.
+ 
+  
+The fairies cheer as {$PlayerName} leaps into the ring. They skip and stomp and twirl together. {$PlayerName}'s feet feel light, as if she could jump to the sky. The moon rises higher. The music gets faster. 
+
+
+"(Your) Home? I do not know the way
+ Only the one-eyed witch can say.
+ Follow, 
+ Where human children 
+ 
+ Where children live I do not know
+ The one-eyed witch can help us, though.
+ 
+ A face peers out, wrinkled as walnut bark, with 
+ 
+ "Finding a thief is a simple task -- find a witness, and just ask!"
+ 
+ "Do not shiver in the night --
+Come to the river! The moon shines bright 
+On our fairy ring. Come dance, come sing!
+{$PlayerName} replies:
+
+Soon they have left the Glutton far behind.
+"Thank you for saving me! But I need to get home. Can you help?"
+
+F shakes her head.
+She beckons {$PlayerName} to follow.
+{$PlayerName} trudges past endless gloomy trees.
+Her bare feet are sore by the time she spots the hut.
+
+Even through her eyelids, she sees the flash.
+S: "Augh! My eyes!"
+{$PlayerName} opens her eyes. The ground rushes at her. She jumps clear. The branches shatter behind her. She sprints through the forest like a deer. The fairy lights her way.
+
+F: "What are you?"
+K: "A kid!"
+F: "Is that a kind of fruit?"
+K: "No! That thing is trying to eat me!"
+F: "Ew!"
+S: "You smell tasty, too, fairy."
+F: "I can get us out of here, but you have to close your eyes, ok?"
+{$PlayerName}...
+
+{$BuddyName} nods. She flits from tree to tree. {$PlayerName} skips along beneath, /humming the fairy tune/. In no time, she spots the hut.
+
+Name? Oh yeah, I've heard of those.
+
+The fairy flits from tree to tree. {$PlayerName} skips along beneath, /humming the fairy tune/. In no time, she spots the hut.
+
+F: "Don't worry. She looks creepy and her hut smells funny, but she's really nice. Come on!"
+The fairy darts ahead. {$PlayerName} trudges after her, past endless gloomy trees.
+
+The fairy flits from treetop to treetop. {$PlayerName} skips along beneath, /humming the fairy tune/. In no time, she spots the hut.
+
+K: "Hey, what's your name?"
+F: "Name? That's a special word that only belongs to you, right?"
+K: "I guess."
+F: "Ooooh, I've always wanted one of those! Can you give me one?"
+[Enter Name]
+F: "Perfect! I love it!"
+
+{$BuddyName} flits from treetop to treetop, humming. {$PlayerName} slogs through the underbrush, silent. Her bare feet are sore by the time she spots the hut.
+
+, yellow with dried grease. Inside, an old woman is chopping herbs with her back to {$PlayerName}. An iron cauldron hangs in the fireplace, licked by purple flames.
+The woman grabs something from a drawer.
+She lays it on her chopping board.
+It twiches.
+It is a fairy / tiny dragon!
+The woman starts to sharpen her knife on a steel rod.
+
+The woman starts and drops her knife. The fairy stares, trembling.
+P: "Fairy, fly!"
+The woman turns. Her eyes are black and crazy as a pigeon's. Her voice creaks.
+W: "And what are you, my pretty?"
+The woman bends to retrieve the knife, holding her back.
+
++Characters
+Make at least the sidekick a relatable character with two contrasting character traits and a goal.
+If that trumps rhyming, fuck the rhyming.
+In fact, fuck the rhyming. I can put it back in later if I want to, but it is just slowing me down ATM.
+Force a mascot onto the character. 
+++Fairy
+Rhyming speech?
+For kids that choose "hide" or "call": joyous/dancing, *curious*, bold / adventurous, *easily disgusted*, mysterious, aloof, cheerful, friendly, party girl,  naive about kids
+For kids that choose "explore", maybe make her timid and 
+++Dragon
+For kids that choose "hide" or "call": rowdy or showoff
+++Witch
+
+
+
++ink
+CONST NAME = "Talea"
+CONST FEMALE = 0
+CONST MALE = 1
+VAR SEX = FEMALE
+VAR CUR_EPISODE = 0
+CONST NUM_EPISODES = 7
+VAR FRIEND0 = false
+VAR FRIEND1 = false
+VAR FRIEND2 = false
+
+-> setup -> intro -> body -> resolution
+
+
+
+=== setup
+Are you a boy or a girl?
+ * I'm a boy
+   ~ SEX = MALE
+ * I'm a girl
+- <>, of course!
+ ->->
+ 
+ === intro
+<hr>
+<h1>{NAME}'s Night Adventure</h1>
+{NAME} wakes up. {He()} isn't at home. {He()} isn't in {his()} bed. {He()} is in a midnight forest. 
+ * [Should {he()} call for {his()} parents?] 
+   "Dad?" 
+   Silence. 
+   "Mom?"
+   Darkness.
+   {NAME} is all alone. 
+   Or maybe not! <>
+ * [Or look around?] 
+  {NAME} peers into the darkness, turning slowly. 
+- ->->
+
+=== body
+ ~ CUR_EPISODE++
+ {CUR_EPISODE <= NUM_EPISODES: -> pickEpisode -> body}
+ ->->
+ 
+=== pickEpisode
+  {~ ->light | -> sound}
+
+=== light
+Over there -- a light!
+ * It's a fairy!
+   -> fairy
+ * It's a campfire.
+   {shuffle:
+   - {not fairy.trollInterrupt} ->trolls 
+   - {not fairy.banditInterrupt} ->bandits 
+   - ->gypsies
+   }
+ 
+=== sound
+A branch cracks! What's that behind {NAME}?
+ * A wolf!
+   -> wolf
+ * A giant!
+   -> giant
+
+=== trolls
+ Trolls
+ ->->
+=== bandits
+  Bandits
+ ->->
+=== gypsies
+  Gypsies
+ ->->
+=== wolf
+  Wolf
+  ->->
+=== giant
+  Giant
+  ->->
+  
+=== fairy
+  <> She floats towards {NAME}.
+  "Beautiful child, lost in the wild! Are you alone, far from home? Do not shiver in the night -- come to the river! The moon shines bright on our fairy ring. Come dance, come sing!"
+  * DANCE
+   DANCE IN THE FAIRY RING....
+   {
+    - hasFriend():
+        AND BE RESCUED
+    - CUR_EPISODE < NUM_EPISODES:
+        {~ -> trollInterrupt | -> banditInterrupt }
+    - else:
+        DANCE FOREVER
+    }
+  * RUN
+- ->->
+= trollInterrupt
+TROLL INTERRUPT
+->->
+= banditInterrupt
+BANDIT INTERRUPT
+->->
+=== resolution
+THE END
+-> END
+
+=== function hasFriend 
+~ return FRIEND0 || FRIEND1 || FRIEND2
+
+=== function He ===
+{
+- SEX == FEMALE:
+    ~ return "She"
+- else:
+    ~ return "He"
+}
+   
+=== function he ===
+{
+- SEX == FEMALE:
+    ~ return "she"
+- else:
+    ~ return "he"
+}
+
+=== function his
+ { SEX == FEMALE: her | his }

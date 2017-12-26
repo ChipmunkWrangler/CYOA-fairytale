@@ -1,0 +1,21 @@
+﻿++ Colouring Book
+
+https://www.youtube.com/watch?v=O5O55PqO8PM
+
+https://www.assetstore.unity3d.com/en/#!/content/46496
+https://github.com/MrJoy/UnitySVG
+http://svgimporter.com -- no svg animations $60
+http://simplysvg.com
+openclipart
+http://u3d.as/content/mazatech-s-r-l-/svgassets/8wo A runtime library for reading SVG files and render them on Texture2D objects (requires Unity Pro).
+ "SVG animations are not supported by SVGAssets plugin, at the moment"
+
+http://learningworksforkids.com/playbooks/if/
+
+ * Flood fill 
+ * Colour freehand
+ * Colour freehand with mask (stay within whatever floodfill region you started in)
+ * Zoom and rotate (but keep track of base rotation; this is mostly for colouring convenience)
++Competition
+Palette
+ * Everything costs money

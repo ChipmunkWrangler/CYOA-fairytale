@@ -1,0 +1,13 @@
+﻿++ Text Choices
+
+ * Offer three choices per node.
+ * Different routes to same result, but record the differences ReflectiveChoices and call back to them or have them affect SimulationistNPC
+ * Player doesn't know which choices are significant in advance
+ * No repeated choices
+ * "Force" decisions: one choice is obviously more interesting; nested options (so the eventual destination is the same, but that is not obvious); NPC does stuff that you "needed" to do (plot point becomes character point)
+ * Simple decisions that stack remorselessly
+ * Reflect state in story (have a murder mystery that uses whatever weapon the character happens to have)
+ 
+http://www.gdcvault.com/play/1021774/Adventures-in-Text-Innovating-in
+
+TextGameEngines
